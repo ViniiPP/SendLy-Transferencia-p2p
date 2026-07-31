@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { RefreshCw, Send, Zap, LogIn, X } from 'lucide-react'
+import { RefreshCw, Send, Zap, LogIn, ArrowLeft } from 'lucide-react'
 import sendlyLogo from '../images/Sendly_Logo.png'
 import { useWebRTC } from '../hooks/useWebRTC'
 import { CodeDisplay } from '../components/CodeDisplay'
@@ -155,6 +155,13 @@ export function Home() {
                 className="flex flex-col gap-5"
               >
                 <CodeInput onSubmit={joinSession} />
+                <button
+                  id="btn-cancel-join"
+                  onClick={handleReset}
+                  className="flex items-center justify-center gap-1.5 text-sm text-purple-400 hover:text-purple-600 transition-colors mx-auto"
+                >
+                  <ArrowLeft size={14} /> voltar
+                </button>
               </motion.div>
             )}
 
