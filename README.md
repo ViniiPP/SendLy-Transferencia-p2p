@@ -1,4 +1,4 @@
-# Sendly
+# Sendly Transfer
 
 Transferência de arquivos entre dispositivos diretamente no navegador.
 
