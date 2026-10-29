@@ -1,8 +1,8 @@
 # Sendly Transfer
 
-Transferência de arquivos entre dispositivos diretamente no navegador.
+Transferência de arquivos entre dispositivos diretamente no navegador
 
-Sem instalação. Sem conta. Sem o arquivo tocar em nenhum servidor.
+Sem instalação. Sem conta. Sem o arquivo tocar em nenhum servidor
 
 ---
 
